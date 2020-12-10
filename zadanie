@@ -1,0 +1,23 @@
+using System;
+
+namespace Podom
+{
+    class Test
+    {
+        public override string ToString()
+        {
+            return "Zamiast przestrzeni nazw zapytam Cie o godzinę";
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Test t1 = new Test();
+
+            Console.WriteLine(t1.ToString());
+            Console.ReadKey();
+        }
+    }
+}
